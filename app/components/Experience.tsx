@@ -21,7 +21,7 @@ function Experience() {
       textMaterials.current.opacity = lerp(
         textMaterials.current.opacity,
         currentPage === "home" || currentPage === "intro" ? 1:0,
-        delta * 2
+        delta * 1.5
       )
     })
 
